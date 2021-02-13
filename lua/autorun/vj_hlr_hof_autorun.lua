@@ -14,7 +14,7 @@ local VJExists = file.Exists("lua/autorun/vj_base_autorun.lua","GAME")
 if VJExists == true then
 	include('autorun/vj_controls.lua')
 	
-	local vCat = "Half-Life Resurgence: HOF"
+	local vCat = "HL Resurgence: HOF"
 	VJ.AddCategoryInfo(vCat, {Icon = "vj_icons/hof.png"})
 		
 	VJ.AddNPC("U.S. Medic","npc_vj_hlrhof_armymedic",vCat)
